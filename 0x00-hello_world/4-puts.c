@@ -1,11 +1,12 @@
 #include <stdio.h>
-int main()
+/*begining of the main function */
+int main(void)
 {
-	
-	const char *hello = "Programming is like building a multilingual puzzle\n";
+	/*decalring a var named hello to store the message*/
+	const char *hello = "\"Programming is like building a multilingual puzzle\n";
+	/*using puts hello to print the message */
 	puts(hello);
 
-
-
-	return 0 ;
+	/*returning 0*/
+	return (0);
 }
