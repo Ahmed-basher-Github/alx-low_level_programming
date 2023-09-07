@@ -2,7 +2,7 @@
 /**
  * main - the begning of the progeamm
  *
- * Return: Always returns 0 
+ * Return: Always returns 0
  */
 int main(void)
 {
