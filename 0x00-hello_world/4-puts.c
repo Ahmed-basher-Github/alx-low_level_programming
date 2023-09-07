@@ -1,12 +1,7 @@
 #include <stdio.h>
-/*begining of the main function */
+/* Entey point of the programm and return 0 */
 int main(void)
 {
-	/*decalring a var named hello to store the message*/
-	const char *hello = "\"Programming is like building a multilingual puzzle\n";
-	/*using puts hello to print the message */
-	puts(hello);
-
-	/*returning 0*/
+	puts("\"Programming is like building a multilingual puzzle\n");
 	return (0);
 }
