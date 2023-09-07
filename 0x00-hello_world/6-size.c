@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+/**
  * main - the begining of the programm
  *
  * Return: Alwayes returns 0
