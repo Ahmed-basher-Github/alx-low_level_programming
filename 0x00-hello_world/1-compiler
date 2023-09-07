@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc $CFILE -o $CFILE.o
+gcc -o -o "$(echo $CFILE | rev | cur -d '.' -f 2 | rev ).o" $CFILE
