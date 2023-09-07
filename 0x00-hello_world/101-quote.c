@@ -13,7 +13,7 @@ int main(void)
 	"and that piece of art is userful\" - Dora Korpar, 2015-10-19\n", 59);
 
 	write(STDOUT_FILENO, &newline, 1);
-
+	write(STDOUT_FILENO, &newline, 1);
 	return (1);
 
 }
