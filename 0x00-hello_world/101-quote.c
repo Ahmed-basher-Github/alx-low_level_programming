@@ -7,15 +7,7 @@
  */
 int main(void)
 {
-	char newline = '\n';
-
 	write(2,
-	"and that piece of art is userful\" - Dora Korpar, 2015-10-19\n", 59);
-
-	write(STDOUT_FILENO, &newline, 1);
-
-	write(STDOUT_FILENO, &newline, 1);
-
+	"and that piece of art is userful\" - Dora Korpar, 2015-10-19\n \n", 120);
 	return (1);
-
 }
