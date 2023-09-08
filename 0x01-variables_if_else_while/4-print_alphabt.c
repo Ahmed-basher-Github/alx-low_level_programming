@@ -9,7 +9,7 @@
  */
 int main(void)
 {
-	const char abces = "abcdfghijklmnoprstuvwxyz";
+	const char *abces = "abcdfghijklmnoprstuvwxyz";
 	int i;
 
 	for (i = 0; abces[i] != '\0'; i++)
