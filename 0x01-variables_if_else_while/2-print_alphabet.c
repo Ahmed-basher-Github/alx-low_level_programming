@@ -1,14 +1,22 @@
-#include <stdlib.h>
-#include <time.h>
-/* more headers goes there */
+#include <stdio.h>
+#include <stdio.h>
+#include <string.h>
 
-/* betty style doc for function main goes there */
+/**
+ * main - program Entry point
+ *
+ * Return: 0 Always
+ */
 int main(void)
 {
-	int n;
+	const char *abces = "abcdefghijklmnopqrstuvwxyz";
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	/* your code goes there */
+	for (int i = 0; abces[i] != '\0'; i++)
+	{
+		putchar(abces[i]);
+	}
+
+	putchar('\n');
 	return (0);
 }
+
