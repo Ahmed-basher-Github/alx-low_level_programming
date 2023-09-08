@@ -9,14 +9,14 @@
  */
 int main(void)
 {
-        const char *abces = "abcdfghijklmnoprstuvwxyz";
-        int i;
+	const char abces = "abcdfghijklmnoprstuvwxyz";
+	int i;
 
-        for (i = 0; abces[i] != '\0'; i++)
-        {
-                putchar(abces[i]);
-        }
+	for (i = 0; abces[i] != '\0'; i++)
+	{
+		putchar(abces[i]);
+	}
 
-        putchar('\n');
-        return (0);
+	putchar('\n');
+	return (0);
 }
