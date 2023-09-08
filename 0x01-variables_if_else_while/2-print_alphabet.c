@@ -10,8 +10,9 @@
 int main(void)
 {
 	const char *abces = "abcdefghijklmnopqrstuvwxyz";
+	int i;
 
-	for (int i = 0; abces[i] != '\0'; i++)
+	for (i = 0; abces[i] != '\0'; i++)
 	{
 		putchar(abces[i]);
 	}
