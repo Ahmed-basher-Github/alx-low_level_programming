@@ -1,18 +1,5 @@
-#include <stdio.h>
-/**
- * main - program entry point
- *
- * Return: returns 0 Always
- */
+#include "main.h"
 
-void print_alphabet(void);
-
-int main(void)
-{
-	print_alphabet();
-	return (0);
-
-}
 /**
  * print_alphabet - a function that prints the alphabet
  *
@@ -25,8 +12,8 @@ void print_alphabet(void)
 
 	while (abces[i] != '\0')
 	{
-		putchar(abces[i]);
+		_putchar(abces[i]);
 		i++;
 	}
-	putchar('\n');
+	_putchar('\n');
 }

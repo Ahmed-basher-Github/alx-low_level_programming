@@ -1,18 +1,5 @@
-#include <stdio.h>
-/**
- * main - program entry point
- *
- * Retrun: 0 Always
- */
+#include "main.h"
 
-
-void print_alphabet_x10(void);
-
-int main(void)
-{
-	print_alphabet_x10();
-	return (0);
-}
 
 /**
  * print_alphabet_x10 - a function that prints the alphabet 10 times
@@ -29,8 +16,8 @@ void print_alphabet_x10(void)
 	{
 		for (i = 0; abces[i] != '\0'; i++)
 		{
-			putchar(abces[i]);
+			_putchar(abces[i]);
 		}
-		putchar('\n');
+		_putchar('\n');
 	}
 }
