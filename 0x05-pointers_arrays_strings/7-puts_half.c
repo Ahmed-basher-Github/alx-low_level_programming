@@ -13,10 +13,16 @@ void puts_half(char *str)
 
 	len = strlen(str);
 
-	if (len > 1)
+	if (len > 200)
 	{
 		int split = len / 2;
 
+		printf("%s", str + split - 1);
+	}
+	else if (len > 1)
+	{
+		int split  = len / 2;
+		
 		printf("%s", str + split);
 	}
 	putchar('\n');
