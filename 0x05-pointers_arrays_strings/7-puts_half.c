@@ -17,7 +17,7 @@ void puts_half(char *str)
 	{
 		int split = len / 2;
 
-		printf("%s", str + split);
+		printf("%c", str + split);
 	}
 	putchar('\n');
 
