@@ -19,6 +19,6 @@ void puts_half(char *str)
 
 		printf("%s\n", str + split);
 	}
-
+	putchar('\n');
 
 }
