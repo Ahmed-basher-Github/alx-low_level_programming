@@ -9,21 +9,14 @@
 
 void puts_half(char *str)
 {
-	int len;
+	int i;
 
-	len = strlen(str);
-
-	if (len > 200)
+	for (i = 0; str[i] != '\0'; i++)
+		;
+	i++;
+	for (i /= 2; str[i] != '\0'; i++)
 	{
-		int split = len / 2;
-
-		printf("%s", str + split - 1);
-	}
-	else if (len > 1)
-	{
-		int split  = len / 2;
-		
-		printf("%s", str + split);
+		_putchar(str[i]);
 	}
 	putchar('\n');
 
