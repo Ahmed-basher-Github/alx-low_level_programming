@@ -3,8 +3,8 @@
 
 /**
  * argstostr - a function that concatenates all the arguments of your program.
- * @ac: count 
- * av: vector
+ * @ac: count
+ * @av: vector
  * Return: char
  *
 */
@@ -27,7 +27,7 @@ char *argstostr(int ac, char **av)
 		i++;
 	}
 	s = malloc((sizeof(char) * ch) + ac + 1);
-	
+
 	i = 0;
 	while (av[i])
 	{
@@ -47,6 +47,6 @@ char *argstostr(int ac, char **av)
 	s[k] = '\0';
 	return (s);
 
-	
+
 
 }
