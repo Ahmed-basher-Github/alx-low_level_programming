@@ -3,10 +3,12 @@
 #include "main.h"
 
 
-/** malloc_checked -  a function that allocates memory using malloc.
+/**
+ * malloc_checked -  a function that allocates memory using malloc.
  * @b: the size of memory to be relocated
  * Return: nothing function is of type void
  */
+
 void *malloc_checked(unsigned int b)
 {
 	void *ptr;
@@ -17,10 +19,10 @@ void *malloc_checked(unsigned int b)
 	{
 		exit(98);
 	}
-	
+
 	return (ptr);
-	
 
 
-	
+
+
 }
