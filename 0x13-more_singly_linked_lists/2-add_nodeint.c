@@ -3,7 +3,7 @@
  * add_nodeint - adds a new node at the beginning of a list.
  * @head:head pointer
  * @n:new int
- *
+ * Return: the node added to the end of the list
  */
 listint_t *add_nodeint(listint_t **head, const int n)
 {
