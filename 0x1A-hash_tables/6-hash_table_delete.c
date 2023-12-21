@@ -1,4 +1,3 @@
-6-hash_table_delete.c
 #include "hash_tables.h"
 
 /**
